@@ -1,0 +1,22 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Infor</title>
+</head>
+<body>
+<h2>Submitted Employee Information</h2>
+<table>
+    <tr>
+        <td> Name : <span th:text="${employee.getName()}"></span></p></td>
+    </tr>
+    <tr>
+        <td>ID : <span th:text="${employee.getId()}"></span></p></td>
+    </tr>
+    <tr>
+        <td>Contact Number : <span th:text="${employee.getContactNumber()}"></span></p></td>
+    </tr>
+
+
+
+</table>
+</body>
+</html>
